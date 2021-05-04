@@ -1,38 +1,65 @@
+
 .App {
+  background-color: #282c34;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: aliceblue;
+  padding-bottom: 5%;
+}
+
+.login {
+  position:absolute; 
+  right: 0;
+}
+
+.calendar {
+  position: relative;
+  top: 60px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.CalendarView{  
+  color: black;
+  height: 500px;
+  background-color: aliceblue;
+  font-size: 70%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button {
+  position: relative;
+  top: 70px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.table {
+  position: relative;
+  top: 70px;
+  text-align: center;
+  font-size: 70%;
 }
 
-.App-link {
-  color: #61dafb;
+.customerInfoDiv{
+  position: relative;
+  top: 70px;
+  text-align: center;
+  color: aliceblue;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+a:link {
+  color: rgb(83, 118, 182);
+}
+
+a:visited {
+  color: rgb(76, 129, 76);
+}
+
+a:hover {
+  color: rgb(163, 66, 66);
+}
+
+a:active {
+  color: rgb(65, 101, 155);
 }
